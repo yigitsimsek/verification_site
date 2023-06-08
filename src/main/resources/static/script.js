@@ -49,7 +49,8 @@ function initOnfido(token) {
         },
         steps: [
             'welcome',
-            'document',
+            'email',
+            'phone',
             'face',
             'complete'
         ]
